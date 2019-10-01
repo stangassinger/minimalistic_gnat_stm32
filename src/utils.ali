@@ -1,0 +1,28 @@
+V "GNAT Lib v7"
+A -gnatp
+A -mcpu=cortex-m4
+A -mthumb
+A -mfloat-abi=soft
+A -mtls-dialect=gnu
+P ZX
+
+RN
+RV SPARK_05
+
+U utils%b		utils.adb		aafdeaa7 NE OO PK
+
+U utils%s		utils.ads		12793229 EE NE OO PK
+
+D system.ads		20170512155834 77e65b42 system%s
+D utils.ads		20191001111636 12793229 utils%s
+D utils.adb		20191001111827 b884d88e utils%b
+X 2 utils.ads
+1K9*Utils 14l5 14e10 3|1b14 28l5 28t10
+3U14*Spin_Indefinitely 3|3b14 8l8 8t25
+5U14*Waste_Some_Time 3|10b14 16l8 16t23
+7U14*aeabi_unwind_cpp_pr1 8i<c,__aeabi_unwind_cpp_pr1>22 3|18b14 21l8 21t28
+10U14*aeabi_unwind_cpp_pr0 11i<c,__aeabi_unwind_cpp_pr0>22 3|23b14 26l8 26t28
+X 3 utils.adb
+11N7 Iterations 13r21
+13i11 I{integer}
+

@@ -1,0 +1,38 @@
+V "GNAT Lib v7"
+A -gnatp
+A -mcpu=cortex-m4
+A -mthumb
+A -mfloat-abi=soft
+A -mtls-dialect=gnu
+P ZX
+
+RN
+
+U pins%b		pins.adb		df9bb621 NE OO PK
+W registers%s		registers.ads		registers.ali
+
+U pins%s		pins.ads		fb9ce34b EE NE OO PK
+
+D pins.ads		20191001110706 fb9ce34b pins%s
+D pins.adb		20191001110706 26388a4c pins%b
+D registers.ads		20191001110706 023fdf26 registers%s
+D system.ads		20170512155834 77e65b42 system%s
+X 1 pins.ads
+1K9*Pins 9l5 9e9 2|3b14 42l5 42t9
+3E9*Pin_ID 3e37 5r38 7r30 2|5r38 23r30
+3n21*Pin_11{3E9} 2|11r15 26r15
+3n29*Pin_12{3E9} 2|16r15 33r15
+5U14*Enable_Output 5>29 2|5b14 21l8 21t21
+5e29 Pin{3E9} 2|5b29 10r12
+7U14*Write 7>21 7>38 2|23b14 40l8 40t13
+7e21 Pin{3E9} 2|23b21 25r12
+7b38 State{boolean} 2|23b38 27r16 34r16
+X 3 registers.ads
+1K9*Registers 2|1w6 6r16 8r7 8r31 12r13 12r39 17r13 17r39 28r16 30r16 35r16
+. 37r16 3|21e14
+3M9*Word 2|6r26
+5m4*RCC_AHBENR{3M9} 2|8m17 8r41
+9m4*GPIOB_MODER{3M9} 2|12m23 12r49 17m23 17r49
+13m4*GPIOB_BSRR{3M9} 2|28m26 35m26
+17m4*GPIOB_BRR{3M9} 2|30m26 37m26
+
