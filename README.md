@@ -14,6 +14,7 @@ sudo apt-get install gcc-arm-linux-gnueabi
 
 sudo apt-get install gcc-arm-linux-gnueabihf 
 
+sudo apt-get install openocd
 
 build program:
 
