@@ -1,6 +1,6 @@
 package Pins is
 
-   type Pin_ID is ( Pin_11, Pin_12 );
+   type Pin_ID is ( Pin_3, Pin_11, Pin_12 );
    
    procedure Enable_Output (Pin : in Pin_ID);
    

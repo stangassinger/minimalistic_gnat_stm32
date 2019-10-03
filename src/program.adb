@@ -7,12 +7,13 @@ package body Program is
    begin
       Pins.Enable_Output (Pins.Pin_11);
       Pins.Enable_Output (Pins.Pin_12);
+      Pins.Enable_Output (Pins.Pin_3);
 
       loop      
-         Pins.Write (Pins.Pin_12, True);
+         Pins.Write (Pins.Pin_3, True);
          Utils.Waste_Some_Time;
 
-         Pins.Write (Pins.Pin_12, False);
+         Pins.Write (Pins.Pin_3, False);
          Utils.Waste_Some_Time;
       end loop;
    end Main;
