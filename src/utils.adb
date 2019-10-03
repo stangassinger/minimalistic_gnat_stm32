@@ -8,7 +8,7 @@ package body Utils is
    end Spin_Indefinitely;
 
    procedure Waste_Some_Time is
-      Iterations : constant := 100_000;
+      Iterations : constant := 1000_000;
    begin
       for I in 1 .. Iterations loop
          null;
