@@ -1,1 +1,0 @@
-sudo openocd -f openocd.cfg -c "init" -c "targets" -c "reset halt" -c "program program.bin 0x08000000  verify reset exit"
