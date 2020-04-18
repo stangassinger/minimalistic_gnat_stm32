@@ -23,3 +23,8 @@ $ . ./build.sh
 run program:
 
 $ . ./run.sh
+
+
+### At the moment it uses a native arm compiler.
+### To build a arm cross compiler use:
+### https://wiki.osdev.org/GNAT_Cross-Compiler#Binutils
